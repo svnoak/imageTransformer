@@ -19,7 +19,7 @@ stages:          # List of stages for jobs, and their order of execution
 deploy-job:      # This job runs in the deploy stage.
   stage: deploy  # It only runs when *both* jobs in the test stage complete successfully.
   only:
-    - master
+    - main
   script:
     - apt-get update -qq && apt-get install -y -qq lftp
     - lftp -c "set ftp:ssl-allow no; open -u $AKUKO_FTP_USERNAME,$AKUKO_FTP_PASSWORD $AKUKO_FTP_HOST; mirror -Rev dist/ /customers/0/6/4/akukoworld.com/httpd.www/images  --ignore-time --parallel=10 --exclude-glob .git* --exclude .git/"
