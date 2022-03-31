@@ -50,6 +50,3 @@ function getAllFiles(){
 }
 
 getAllFiles();
-
-
-phpinfo();
