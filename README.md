@@ -1,13 +1,19 @@
 # productionImageCreation
 
-Creating product images based on an original according to saleschannel specifications.
+This project was created as a quick and dirty way to bulk-edit images for an E-commerce business.
 
-## Usecase
+A lot of sellers online (Zalando, Amazon etc) do have specific requirements for product images regarding size, format and backgroundcolor.
+Editing images on bulk either requires expensive software like Adobe Photoshop or a lot of time.
 
-E-Commerce sellers who use multiple saleschannels have to adapt their product images to each saleschannel's image specifikation.
-In most cases this only means using a specific background color, certain minimum or maximum sizes and some times specific image ratios.
+This code makes it possible for the user to input the specifications and bulk edit images.
 
-When needing to change these things, it is easier to set the settings and let the computer do the work for you, giving you time for other more meaningfull tasks or just to put your feet up for a while.
+Requirements:
+PHP 8.0 or above
 
-## DEMO
-TBA
+## To install
+```
+$git clone https://github.com/svnoak/imageTransformer.git
+$cd imageTransformer
+$php -S localhost:4000
+```
+Navigate to localhost:4000 in your webbrowser
