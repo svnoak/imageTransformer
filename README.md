@@ -17,3 +17,5 @@ cd imageTransformer
 php -S localhost:4000
 ```
 Navigate to localhost:4000 in your webbrowser
+
+The password is "password" to get to the page.
