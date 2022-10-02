@@ -12,8 +12,8 @@ PHP 8.0 or above
 
 ## To install
 ```
-$git clone https://github.com/svnoak/imageTransformer.git
-$cd imageTransformer
-$php -S localhost:4000
+git clone https://github.com/svnoak/imageTransformer.git
+cd imageTransformer
+php -S localhost:4000
 ```
 Navigate to localhost:4000 in your webbrowser
